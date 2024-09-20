@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture For Google Drive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+        }
+      
+        .hero {
+            padding: 50px 0;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .gradient{
+            font-size: 48px;
+            background: -webkit-linear-gradient(360deg,#3494E6, #EC6EAD);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+              
+                  
+         .btn-grad {
+            background-image: linear-gradient(to right, #3494E6 0%, #EC6EAD  50%);
+            padding: 15px 45px;
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 10px;
+            display: inline-block;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        
+        .how-it-works {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+       
+        .step {
+            flex-basis: 30%;
+            border: #333;
+        }
+        
+        .feature {
+            padding: 20px;
+            text-align: left;
+            margin: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        #how-it-works{
+          display: flex;
+          flex-direction: column;
+        }
+         
+        .steps{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+       
+        
+        .step{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 10px;
+          margin: 10px;
+          border: 1px solid rgb(248, 211, 217);
+          border-radius: 10px;
+          box-shadow: rgba(189, 118, 182, 0.2) 0px 8px 12px;;
+        }
+        .step-content{
+          text-align: left;
+        }
+        .step-number{
+          padding-right: 20px;
+        }
+        .feature-heading{
+          color: #2b7bc1;
+        }
+        .features {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 50px;
+        }
+        @media screen and (max-width: 767px){
+          .features{
+            display: flex;
+            flex-direction: column;
+          }
+        }
+         @media screen and (max-width: 767px){
+          .steps{
+            display: flex;
+            flex-direction: column;
+        
+          } 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="icon128.png" alt="Easy Capture">
+            <h2>Capture For Google Drive</h2>
+            
+        </header>
+
+        <section class="hero">
+            <h1>Save anything to <br> <span class="gradient">Google Drive</span></h1>
+            <p>Capture and save text, highlights, and screenshots directly to your Google Drive folder hassle-free. Streamline your web research and content gathering with ease. Try it now!</p>
+            <a href="#" class="btn-grad">Add to Chrome</a>
+            
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div>
+              <h2>How it works?</h2>
+            </div>
+            <div class="steps">
+             
+              <div class="step">
+                <h1 class="step-number">1</h1>
+                <div class="step-content">
+                  <h3>Capture Content</h3>
+                  <p>Select text or take screenshots from any webpage.</p>
+                </div>
+              </div>
+              
+              <div class="step">
+                  <h1 class="step-number">2</h1>
+                  <div class="step-content">
+                    <h3>Choose Destination</h3>
+                    <p>Select your Google Drive folder and file format for saving.</p>
+                  </div>
+                  
+              </div>
+              
+              <div class="step">
+                  <h1 class="step-number">3</h1>
+                  <div class="step-content">
+                    <h3>Save and Access</h3>
+                    <p>Your content is saved and accessible in Google Drive.</p>
+                  </div>
+                  
+              </div>
+            </div>
+            
+        </section>
+
+        <section id="features" class="features">
+          <div>
+            <div class="feature">
+                <h3 class="feature-heading">Easy Capture</h3>
+                <p>Simplify the process of saving content by allowing users to capture text and screenshots with just a few clicks.</p>
+            </div>
+            <div class="feature">
+                <h3 class="feature-heading">Direct Google Drive Integration</h3>
+                <p>Save captured content directly to your Google Drive, organizing your research and notes effortlessly.</p>
+            </div>
+          </div>
+          <div>
+            <div class="feature">
+                <h3 class="feature-heading">Customizable Saving</h3>
+                <p>Choose your preferred file format and specify folder names for organized storage in Google Drive.</p>
+            </div>
+            <div class="feature">
+                <h3 class="feature-heading">Dark Mode Support</h3>
+                <p>Enjoy a comfortable viewing experience in any lighting condition with our automatic dark mode feature.</p>
+            </div>
+          </div>
+            
+        </section>
+    </div>
+</body>
+</html>
